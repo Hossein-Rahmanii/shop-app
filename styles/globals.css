@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .menu {
+    @apply hover:bg-[#a8dadc] hover:text-black p-2 rounded-md transition  mx-1 duration-300 delay-75 flex flex-row
+  }
+  .quantity{
+    @apply px-2 bg-[#e63946] shadow-md shadow-[#e63946] rounded-md font-bold font-sans text-white
+  }
+}
+
+body{
+  direction: rtl;
+  font-family: "Vaz";
+  background-color:  ;
+}
+
+@font-face {
+  font-family: "Vaz";
+  src: url(../fonts/Vazir-Medium-FD-WOL.ttf);
+}
